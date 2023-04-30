@@ -170,7 +170,7 @@ const Navbar = () => {
                   <nav id="sideNav" className="mainmenu-nav d-none d-xl-block">
                     <ul className="mainmenu">
                       <li className="">
-                        <Link to="/" className="its_new">
+                        <Link to="/Home" className="its_new">
                           Home
                         </Link>
                       </li>

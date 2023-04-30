@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { ImageContext } from "../App";
+import Navbar from "../Headers/Navbar";
 import "./SearchBar.css";
 
 function SearchBar() {
@@ -36,6 +37,7 @@ function SearchBar() {
 
   return (
     <div>
+      <Navbar />
       <div className="container4">
         <img
           src={require(`./images/unnamed-1.png`)}
